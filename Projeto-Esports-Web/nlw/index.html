@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap" rel="stylesheet">
+
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>NLW Esports</title>
+
+        <link rel="stylesheet" href="./styles.css">
+
+    </head>
+    <body>
+
+        <header>
+            <div>
+                <img 
+                src="data:image/jpeg;base64,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" 
+                alt="Foto de Mayk Brito na frente de um laptop" />
+            </div>
+        </header>
+
+        <main>
+
+            <section>
+                <div>
+                    <h2>Meus jogos</h2>
+                    <p>Os games que eu mais curto jogar!</p>
+                    <ul class="games-list">
+                        <li>
+                            <a 
+                            target="_blank"
+                            href="https://www.twitch.tv/directory/game/League%20of%20Legends">
+                                <img src="https://static-cdn.jtvnw.net/ttv-boxart/21779-188x250.jpg" alt="Imagem do jogo League of Legends">
+                            </a>
+                        </li>
+
+                        <li>
+                            <a 
+                            target="_blank"
+                            href="https://www.twitch.tv/directory/game/VALORANT">
+                                <img src="https://static-cdn.jtvnw.net/ttv-boxart/516575-188x250.jpg" alt="Imagem do jogo Valorant">
+                            </a>
+                        </li>
+
+                        <li>
+                            <a 
+                            target="_blank"
+                            href="https://www.twitch.tv/directory/game/Minecraft">
+                                <img src="https://static-cdn.jtvnw.net/ttv-boxart/27471_IGDB-188x250.jpg" alt="Imagem do jogo Minecraft">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <div>
+                    <h2>Canais e streamers</h2>
+                    <p>Lista de canais e transmissões que não perco!</p>
+
+                    <ul class="channel-list">
+                        <li>
+                            <a 
+                            target="_blank"
+                            href="https://www.twitch.tv/maykbrito">
+                                <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/9ce11a2b-ec84-44b1-9c76-b8d29df5fef0-profile_image-150x150.png" alt="Imagem de Mayk Brito">
+                            </a>
+                        </li>
+
+                        <li>
+                            <a 
+                            target="_blank"
+                            href="https://www.twitch.tv/alanzoka">
+                                <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/15cec952-c1ba-4ff8-a79c-53c2fa5bd269-profile_image-150x150.png" alt="Imagem de Alanzoka">
+                            </a>
+                        </li>
+
+                        <li>
+                            <a 
+                            target="_blank"
+                            href="https://www.twitch.tv/cellbit">
+                                <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/cb885149-f7f7-48f0-99ae-fe0a386ed3e2-profile_image-150x150.png" alt="Imagemd de Cellbit">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <div>
+                    <h2>Minhas redes</h2>
+                    <p>Se conecte comigo agora mesmo!</p>
+
+                    <ul class="social-list">
+                        <li>
+                            <a 
+                            target="_blank"
+                            href="https://www.twitch.tv/maykbrito">
+                                <svg width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M21.2824 25H15.8426C15.6011 25.0001 15.3678 25.0844 15.1852 25.2375L9.28125 30V25H6.1875C5.914 25 5.65169 24.8946 5.4583 24.7071C5.2649 24.5196 5.15625 24.2652 5.15625 24V6C5.15625 5.73478 5.2649 5.48043 5.4583 5.29289C5.65169 5.10536 5.914 5 6.1875 5H26.8125C27.086 5 27.3483 5.10536 27.5417 5.29289C27.7351 5.48043 27.8438 5.73478 27.8438 6V19.5375C27.8417 19.6832 27.8072 19.8267 27.7427 19.9583C27.6782 20.0899 27.5851 20.2065 27.4699 20.3L21.9398 24.7625C21.7572 24.9156 21.5239 24.9999 21.2824 25V25Z" stroke="#9A35FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M21.6562 11V17" stroke="#9A35FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M15.4688 11V17" stroke="#9A35FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>                                
+                            </a>
+                        </li>
+
+                        <li>
+                            <a 
+                            target="_blank"
+                            href="https://www.twitter.com/maykbrito">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16 11C16 8.25003 18.3125 5.96253 21.0625 6.00003C22.0256 6.01115 22.9649 6.30018 23.7676 6.83237C24.5704 7.36457 25.2023 8.11728 25.5875 9.00003H30L25.9625 13.0375C25.7019 17.0932 23.9066 20.8975 20.9415 23.6769C17.9764 26.4562 14.0641 28.002 10 28C6 28 5 26.5 5 26.5C5 26.5 9 25 11 22C11 22 3 18 5 7.00003C5 7.00003 10 12 16 13V11Z" stroke="#2871FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a 
+                            target="_blank"
+                            href="https://www.instagram.com/maykbrito">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16 21C18.7614 21 21 18.7614 21 16C21 13.2386 18.7614 11 16 11C13.2386 11 11 13.2386 11 16C11 18.7614 13.2386 21 16 21Z" stroke="#FA41FE" stroke-width="2" stroke-miterlimit="10"/>
+                                    <path d="M21.5 4.5H10.5C7.18629 4.5 4.5 7.18629 4.5 10.5V21.5C4.5 24.8137 7.18629 27.5 10.5 27.5H21.5C24.8137 27.5 27.5 24.8137 27.5 21.5V10.5C27.5 7.18629 24.8137 4.5 21.5 4.5Z" stroke="#FA41FE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M22.5 11C23.3284 11 24 10.3284 24 9.5C24 8.67157 23.3284 8 22.5 8C21.6716 8 21 8.67157 21 9.5C21 10.3284 21.6716 11 22.5 11Z" fill="#FA41FE"/>
+                                </svg>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a 
+                            target="_blank"
+                            href="https://www.youtube.com/maykbrito">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M20 16L14 12V20L20 16Z" stroke="#F40000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M3 16C3 19.725 3.3875 21.9 3.675 23.025C3.75427 23.3302 3.90418 23.6126 4.11262 23.8493C4.32106 24.0859 4.58221 24.2703 4.875 24.3875C9.0625 25.9875 16 25.95 16 25.95C16 25.95 22.9375 25.9875 27.125 24.3875C27.4178 24.2703 27.6789 24.0859 27.8874 23.8493C28.0958 23.6126 28.2457 23.3302 28.325 23.025C28.6125 21.9 29 19.725 29 16C29 12.275 28.6125 10.1 28.325 8.975C28.2457 8.66975 28.0958 8.38741 27.8874 8.15074C27.6789 7.91407 27.4178 7.7297 27.125 7.6125C22.9375 6.0125 16 6.05 16 6.05C16 6.05 9.0625 6.0125 4.875 7.6125C4.58221 7.7297 4.32106 7.91407 4.11262 8.15074C3.90418 8.38741 3.75427 8.66975 3.675 8.975C3.3875 10.1 3 12.275 3 16Z" stroke="#F40000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+        </main>
+
+    </body>
+</html>
